@@ -14,5 +14,5 @@ def main(page: ft.Page):
     page.add(nombre, ft.ElevatedButton("Enviar", on_click=enviar_click), resultado)
 
 if __name__ == '__main__':
-    ft.app(target=main, view=ft.WEB_BROWSER, port=30001)
+    ft.app(target=main, view=ft.WEB_BROWSER, port=30001, host="0.0.0.0")
 
