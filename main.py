@@ -4,7 +4,7 @@ import flet as ft
 def main(page: ft.Page):
     page.title = "Interfaz con Entrada y Botón"
 
-    nombre = ft.TextField(label="Introduce tu nombre")
+    nombre = ft.TextField(label="Introduce tu nombre, gracias")
     resultado = ft.Text()
 
     def enviar_click(e):
